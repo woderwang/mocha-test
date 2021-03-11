@@ -1,0 +1,29 @@
+{
+    "scripts": {
+        "test": "mocha --require @babel/register"
+    },
+    "devDependencies": {
+        "@babel/register": "^7.12.13",
+        "enzyme": "^3.11.0",
+        "mocha": "^8.2.1"
+    },
+    "dependencies": {
+        "@babel/core": "^7.12.13",
+        "@babel/preset-env": "^7.12.13",
+        "@babel/preset-react": "^7.12.13",
+        "axios": "^0.21.1",
+        "axios-mock-adapter": "^1.19.0",
+        "chai": "^4.3.0",
+        "enzyme-adapter-react-16": "^1.15.6",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-react",
+            [
+                "@babel/preset-env"
+            ]
+        ]
+    }
+}
